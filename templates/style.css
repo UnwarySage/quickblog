@@ -67,6 +67,11 @@ ul.index {
   margin-bottom: 1em;
 }
 
+.blog-homepage {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
 code {
   white-space: pre;
 }
