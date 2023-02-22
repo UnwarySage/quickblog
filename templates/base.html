@@ -85,12 +85,14 @@
 
   <div class="wrapper">
 
-    {{body | safe }}
+    <main>
+      {{body | safe }}
+    </main>
 
     {% if not skip-archive %}
-    <div style="margin-bottom: 20px; float: right;">
+    <footer style="margin-bottom: 20px; float: right;">
       <a class="page-link" href="{{relative-path | safe}}archive.html">Archive</a>
-    </div>
+    </footer>
     {% endif %}
   </div>
 </body>
